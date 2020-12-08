@@ -1,4 +1,4 @@
-FROM node:9.3.0
+FROM node:latest
 ADD . /code
 WORKDIR /code
 RUN npm install
